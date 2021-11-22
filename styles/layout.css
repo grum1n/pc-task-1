@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-color: rgb(53, 44, 63);
+}
+
+section {
+   padding-top: 100px;
+   width: 100%;
+   display:flex;
+   justify-content: center;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #556f2b;
+}
+h3{
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+/*areaA*/
+#areaA {
+    background-color: #afb6a4;
+    color: black;
+    resize: none;
+    width: 100px;
+    padding: 10px;
+    overflow: hidden;
+}
+/*areaA*/
+
+#areaA::placeholder {
+    color:#615858;
+}
+#areaA::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+#areaA::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+#areaA::-webkit-scrollbar-thumb {
+  background-color: rgb(53, 44, 63);
+  outline: 1px solid #afb6a4;
+}
