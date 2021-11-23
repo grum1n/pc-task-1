@@ -9,7 +9,7 @@ function addRowFunction() {
 
     let textValue = document.getElementById("areaA").value;
   
-    let textLenghtArray = [49, 59, 69, 79, 89];
+    let textLenghtArray = [45, 54, 63, 72, 81];
  
     for (let i = 0; i < textLenghtArray.length; i++) {
         if (textValue.length > textLenghtArray[i]) {
@@ -17,7 +17,7 @@ function addRowFunction() {
         }   
     }
 
-    if (textValue.length > 99) {
+    if (textValue.length > 90) {
         document.getElementById('areaA').style.overflow = 'visible';
     } else {
         document.getElementById('areaA').style.overflow = 'hidden';

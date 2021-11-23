@@ -30,17 +30,20 @@ h3{
 
 /*areaA*/
 #areaA {
-    background-color: #afb6a4;
+    background-color: #dadfd1;
     color: black;
     resize: none;
-    width: 100px;
+    width: 113px;/*112*/
     padding: 10px;
     overflow: hidden;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 16px; 
 }
 /*areaA*/
 
 #areaA::placeholder {
-    color:#615858;
+    color:#534d4d;
 }
 #areaA::-webkit-scrollbar {
     width: 5px;
